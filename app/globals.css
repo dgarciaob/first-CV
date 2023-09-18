@@ -25,3 +25,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.hover-effect {
+  color: #ADB7BE; /* Color original */
+  font-size: 1em; /* Tamaño de fuente original */
+  transition: color 0.3s, font-size 0.3s; /* Transición suave */
+}
+
+.hover-effect:hover {
+  color: #5AA6EC; /* Cambia el color al pasar el cursor */
+  font-size: 1.2em; /* Aumenta el tamaño de la fuente al pasar el cursor */
+}
+
